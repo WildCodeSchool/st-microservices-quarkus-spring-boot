@@ -2,8 +2,7 @@ package dev.wcs.tutoring.microservice.weatherbot.rest;
 
 import dev.wcs.tutoring.microservice.weatherbot.dto.CovidDTO;
 import dev.wcs.tutoring.microservice.weatherbot.dto.WeatherDTO;
-import dev.wcs.tutoring.microservice.weatherbot.rest.entity.QueryHistory;
-import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
+import dev.wcs.tutoring.microservice.weatherbot.persistence.QueryHistory;
 import io.quarkus.panache.common.Sort;
 
 import javax.enterprise.context.control.ActivateRequestContext;

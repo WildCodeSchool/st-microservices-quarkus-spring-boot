@@ -1,4 +1,4 @@
-package dev.wcs.tutoring.microservice.weatherbot.rest.entity;
+package dev.wcs.tutoring.microservice.weatherbot.persistence;
 
 import io.quarkus.hibernate.orm.panache.PanacheEntity;
 import lombok.*;

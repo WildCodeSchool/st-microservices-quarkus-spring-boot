@@ -1,4 +1,4 @@
-package dev.wcs.tutoring.quarkus.weatherbot.rest.entity;
+package dev.wcs.tutoring.quarkus.weatherbot.persistence.entity;
 
 import lombok.*;
 

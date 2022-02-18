@@ -22,6 +22,8 @@ telegram.token=SET_TELEGRAM_TOKEN
 weather.token=SET_OPENWEATHERAPI_TOKEN
 ```
 
+* MySQL must be running locally on port 3306 with an empty database `tutoring_bot`
+
 ## Run Quarkus Bot Demo
 
 * Change to `quarkus` folder

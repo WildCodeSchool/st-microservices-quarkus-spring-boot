@@ -2,8 +2,8 @@ package dev.wcs.tutoring.quarkus.weatherbot.rest;
 
 import dev.wcs.tutoring.quarkus.weatherbot.dto.CovidDTO;
 import dev.wcs.tutoring.quarkus.weatherbot.dto.WeatherDTO;
-import dev.wcs.tutoring.quarkus.weatherbot.rest.entity.QueryHistory;
-import dev.wcs.tutoring.quarkus.weatherbot.rest.repository.QueryHistoryRepository;
+import dev.wcs.tutoring.quarkus.weatherbot.persistence.entity.QueryHistory;
+import dev.wcs.tutoring.quarkus.weatherbot.persistence.repository.QueryHistoryRepository;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

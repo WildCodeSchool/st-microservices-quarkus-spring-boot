@@ -1,6 +1,6 @@
-package dev.wcs.tutoring.quarkus.weatherbot.rest.repository;
+package dev.wcs.tutoring.quarkus.weatherbot.persistence.repository;
 
-import dev.wcs.tutoring.quarkus.weatherbot.rest.entity.QueryHistory;
+import dev.wcs.tutoring.quarkus.weatherbot.persistence.entity.QueryHistory;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 
